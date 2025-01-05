@@ -1,0 +1,80 @@
+\documentclass{article}
+\usepackage[letterpaper, total={6in, 8in}]{geometry}
+\usepackage{graphicx}
+\usepackage[outdir=./]{epstopdf}
+\usepackage{amsmath} 
+\usepackage{tabularx}
+\usepackage{csvsimple}
+\usepackage{float}
+\usepackage{subfig}
+\usepackage{pgfplots}
+%\usepackage[numbered]{mcode} # Not added to Dev Container yet
+\graphicspath{ {./Images} }
+\pgfplotsset{compat=1.18}
+
+\begin{document}
+
+% ------- Def Vars ------- %
+\def\Class{ECE 341}
+\def\ClassName{Principles of Electromechanical Energy Conversion}
+\def\LabNumber{3}
+\def\LabName{Introduction to Electric Machinery Lab}
+
+% ------- Import Template ------- %
+\input{../Template/Lab_TitlePage}
+
+% ------- Content ------- %
+\section*{Description of Goals}
+\vspace{-0.1in}
+\hrule
+\vspace{5pt}
+
+\section*{Laboratory Exercise}
+\vspace{-0.1in}
+\hrule
+\vspace{5pt}
+
+\section*{Results and Data Tables}
+\vspace{-0.1in}
+\hrule
+\vspace{5pt}
+
+%  \begin{figure}[H]
+%    \centering
+%    \includegraphics[width=0.5\linewidth]{Images/LTspice_Circuit_01.png}
+%    \caption{LTspice Circuit}
+%    \label{fig:LTspice Circuit} 
+%  \end{figure}
+
+%\begin{figure}[H]
+%    \centering
+%    \subfloat[\centering Circuit]{{\includegraphics[width=2.5in]{Images/3.png}}}
+%    \qquad
+%    \subfloat[\centering Circuit]{{\includegraphics[width=2.5in]{Images/4.png}}}
+%    \caption{Circuits}
+%    \label{fig:Circuit34}
+%\end{figure}
+
+\section*{Conclusion}
+\vspace{-0.1in}
+\hrule
+\vspace{5pt}
+
+This experiment was quite simple and easy to follow. It effectively highlights the difference between real-world scenarios and simulations, with outcomes that can occasionally be surprising.
+
+\pagebreak
+\section*{Appendix}
+\vspace{-0.1in}
+\hrule
+\vspace{5pt}
+
+% \lstinputlisting[caption=Lab.m, breaklines, language=Matlab]{LabData/Lab.m}
+
+%\begin{table}[H]
+%    \centering
+%    \csvautotabular{LabData/plot.csv}
+%    \caption{Part 1 Raw Data}
+%    \label{fig:Table} 
+%\end{table}
+
+\end{document}
